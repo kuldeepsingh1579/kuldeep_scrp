@@ -5386,3 +5386,28 @@ INFO:root:log my final result []
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "POST /review HTTP/1.1" 200 -
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.10:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [22/Jul/2023 17:54:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [22/Jul/2023 17:54:22] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [22/Jul/2023 17:54:22] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [22/Jul/2023 17:54:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.10:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [22/Jul/2023 18:09:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [22/Jul/2023 18:09:13] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [22/Jul/2023 18:09:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'iqooz3', 'Name': 'PRADEEPKUMAR A BAINDOOR Baindoor ', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': 'Excellent product'}, {'Product': 'iqooz3', 'Name': 'Nitan  Barman', 'Rating': '4', 'CommentHead': 'Pretty good', 'Comment': 'Good'}, {'Product': 'iqooz3', 'Name': 'Krishnendu Rana', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Phone is good'}, {'Product': 'iqooz3', 'Name': 'Machani Raghava', 'Rating': '5', 'CommentHead': 'Terrific purchase', 'Comment': 'This mobile 6gb ram enough for freefire'}, {'Product': 'iqooz3', 'Name': 'Reddappa Thammisetti', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Wow'}, {'Product': 'iqooz3', 'Name': 'Dubbarajam Bingi', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'Nice'}, {'Product': 'iqooz3', 'Name': 'Sovan Mondal', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'Nice product'}, {'Product': 'iqooz3', 'Name': 'VISHWAS ROHILLA VISHWAS ROHILLA', 'Rating': '5', 'CommentHead': 'Mind-blowing purchase', 'Comment': 'Awesome phone awesome quality'}, {'Product': 'iqooz3', 'Name': 'Gaurav Singh', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'Awesome phone'}, {'Product': 'iqooz3', 'Name': 'Gaurav Singh', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Awesome phone'}]
+INFO:werkzeug:172.18.0.2 - - [22/Jul/2023 18:09:22] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [22/Jul/2023 18:09:22] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [22/Jul/2023 18:09:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
